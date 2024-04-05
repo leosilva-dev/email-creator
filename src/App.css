@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+}
+
+.elements-panel {
+  width: 30%;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 90;
+}
+
+.email-content {
+  width: 70%;
+  border: 1px solid #ccc;
+  height: 90vh;
+  padding: 10px;
+}
+
+.element-settings {
+  top: 0;
+  right: 0;
+  width: 30%;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.elements-panel button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.elements-panel button:hover {
+  background-color: #0056b3;
+}
+
+.elements-panel button:focus {
+  outline: none;
+}
